@@ -28,13 +28,13 @@ module.exports = {
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
     proxyTable: {
-    	'/sjz/wechat/': {
-		    target: 'http://city.dev.wx.aipark.com',
+    	'/sym_aipark/api/v1/': {
+		    target: 'http://wx.cs.aipark.com',
 		    changeOrigin: true,
 		    pathRewrite: {
-		      '^/sjz/wechat/': '/sjz/wechat/'
+		      '^/sym_aipark/api/v1/': '/sym_aipark/api/v1/'
 		    }
-		}
+		  }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"
     // with this option, according to the CSS-Loader README
