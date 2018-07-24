@@ -1,0 +1,1 @@
+global.AJAXURL = '/hd/wechat/';
